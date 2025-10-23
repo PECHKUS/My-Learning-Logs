@@ -1,2 +1,5 @@
 The DMA implementation rule is a sequence of prescribed steps required to activate the DMA hardware and ensure a reliable data transfer.
-This rule is rooted in the architecture of the DMA Controller (DMAC) and is universal across most microcontrollers (MCU), including those that use C and HAL
+This rule is rooted in the architecture of the DMA Controller (DMAC) and is universal across most microcontrollers (MCU),
+including those that use C and HAL.
+
+The Core DMA Implementation Rule
