@@ -2,4 +2,8 @@ The DMA implementation rule is a sequence of prescribed steps required to activa
 This rule is rooted in the architecture of the DMA Controller (DMAC) and is universal across most microcontrollers (MCU),
 including those that use C and HAL.
 
-The Core DMA Implementation Rule
+** The Core DMA Implementation Rule **
+The implementation rule dictates that the Central Processing Unit (CPU) is involved only in the setup and notification stages, adhering to the three phases of DMA operation: Configuration, Initiation, and Completion Handling.
+Phase 1: Configuration Rule (Setup)
+        The primary rule here is to make the transfer deterministic by programming the DMAC's internal state machine with all transfer parameters before enablement.
+        
